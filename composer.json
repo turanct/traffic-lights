@@ -1,0 +1,29 @@
+{
+    "name": "turanct/traffic-lights",
+    "description": "System to control a set of traffic lights",
+    "type": "application",
+    "homepage": "http://github.com/turanct/traffic-lights",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "spinnewebber_toon@hotmail.com",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    }
+}
