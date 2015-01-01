@@ -65,3 +65,12 @@ B 1  E E E E E E E E E E E E
 - O = `orange`
 - R = `red`
 - E = `blinking orange`
+
+
+Implementation
+---------------------------------------
+
+- There's a simple Clock, which we can send the command to Tick.
+- Every TrafficLight takes the Clock as a constructor parameter.
+- Every TrafficLight takes a ColorSequence as a constructor parameter.
+- When the Clock Ticks, the TraffiLight advances its ColorSequence Cursor.
